@@ -1,0 +1,24 @@
+@import "variables";
+
+.lattice-form-label {
+  padding-bottom: 7px;
+}
+
+.lattice-icon {
+  padding-bottom: 0 !important;
+}
+
+.lattice-form-band {
+  margin-bottom: 1.75rem !important;
+}
+
+.lattice-form-input {
+  width: 100% !important;
+}
+
+.lattice-form-note {
+  color: $gray;
+  padding-left: 16px;
+  font-size: small;
+  margin-bottom: 9px;
+}

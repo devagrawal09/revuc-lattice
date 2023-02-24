@@ -1,0 +1,15 @@
+@import "tachyons";
+@import "variables";
+@import "font";
+
+.title {
+  @extend .font-primary;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: $secondary-dark;
+}
+
+.nav-bar-margin {
+  margin-bottom: 88px !important;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "lattice",
+  "author": "RevolutionUC",
+  "repository": "https://github.com/RevolutionUC/lattice/",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://lattice.revolutionuc.com",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "axios": "^1.2.3",
+    "material-ui-popup-state": "^5.0.4",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.42.1",
+    "react-router-dom": "^6.7.0",
+    "react-spring": "^7.2.8",
+    "react-tsparticles": "^2.8.0",
+    "react-with-gesture": "^4.0.2",
+    "reactour": "^1.19.0",
+    "sass": "^1.26.10",
+    "styled-components": "^4.0.0",
+    "tachyons": "^4.12.0",
+    "tsparticles": "^2.8.0",
+    "tsparticles-engine": "^2.8.0",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tsc & vite build",
+    "serve": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@vitejs/plugin-react": "^3.0.1",
+    "gh-pages": "^3.1.0",
+    "vite": "^4.0.4",
+    "vite-plugin-svgr": "^2.4.0",
+    "vite-tsconfig-paths": "^4.0.5"
+  }
+}

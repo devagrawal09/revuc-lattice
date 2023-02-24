@@ -1,0 +1,88 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior-y: contain;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: none;
+  font-family: "Lato", sans-serif;
+  background: $secondary-dark;
+}
+
+.deck {
+  padding-top: 50px;
+}
+
+.deck > div {
+  position: absolute;
+  width: 100vw;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deck > div > div {
+  padding: 5px;
+  background-color: #fff;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  max-width: 300px;
+  height: 480px;
+  max-height: 550px;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 40px -10px rgba(160, 238, 192, 0.2),
+    0 10px 10px -10px rgba(33, 29, 57, 0.3);
+}
+
+img {
+  height: 380px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+h2:nth-of-type(2) {
+  opacity: 0.7;
+  font-size: 1.35rem;
+}
+
+h5 {
+  margin-top: -15px;
+  margin-left: 2px;
+  color: lightgray;
+}
+h5:last-of-type {
+  color: darkgray;
+}
+
+.card > div {
+  height: 100px !important;
+  display: flex !important;
+  flex-wrap: flex !important;
+}
+
+.card {
+  height: 500px !important;
+}
+
+.slider-control-bottomcenter {
+  bottom: -15px !important;
+}
+
+.slider-control-bottomcenter > ul > li > button {
+  color: #211d39 !important;
+}
